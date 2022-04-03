@@ -1,0 +1,24 @@
+.SkillsSection{
+    .skills-container{
+        .skills-bar{
+           display: flex;
+           align-items: center;
+            .skills-text{padding-top: 1rem;}
+            .skills-progress{
+                width: 80%;
+                height: .5rem;
+                background-color:#0381FF3F;
+                margin-left: 1rem;
+                position: relative;
+                .ineer-progress{
+                    content: "";
+                    position: absolute;
+                    height: 100%;
+                    bottom:0 ;
+                    left: 0;
+                    background-color:aqua;
+                }
+            }
+        }
+    }
+}

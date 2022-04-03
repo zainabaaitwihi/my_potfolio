@@ -1,0 +1,43 @@
+@import './../App.scss';
+.home{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:80%;
+    .hero{
+       .text{
+           text-align: center;
+           color: #a4acc4;
+           font-family: 'M PLUS Rounded 1c', sans-serif;
+           padding:10px 0;
+       }
+    }
+}
+.hero-text{
+    color: #fff;
+    text-align: center;
+    span{
+        color:aqua;
+    }
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .icon{
+        margin-right: 10px;
+        font-size: 30px;
+        color:#a4acc4;
+        transition: all .4s ease-in-out;
+    }
+    .fb:hover{
+        color:blue
+    }
+    .gt:hover{
+        color:blueviolet
+    }
+    .li:hover{
+        color:blue
+    }
+}

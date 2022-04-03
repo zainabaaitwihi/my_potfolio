@@ -1,0 +1,44 @@
+
+.ContactItem{
+    width:100%;
+    
+  &:not(:last-child){
+    margin-bottom: 1.5rem;
+  }
+    .contact{
+        display: flex;
+        align-items: center;
+        height: 7rem;
+        background-color: #191D2B;
+        img{
+            border: 1px solid black;
+            padding:1rem;
+            margin:2rem ;
+        }
+        .right-items{
+            h6{
+                font-size: 1.4rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
+.ContactPage{
+    display: flex;
+    .ContactSection{
+        width: 100%;
+    }
+}
+.map-sect{
+    width: 90%;
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+}
+.ContactSection{
+    margin-left: 2rem;
+}
+.contact-title{
+    margin-bottom:3rem;
+}

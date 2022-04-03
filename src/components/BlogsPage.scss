@@ -1,0 +1,32 @@
+.blogs-title{ padding-bottom: 3rem;}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    .blog{
+        background-color: #161925;
+        width: 100%;
+        padding: 1rem;
+        
+        .blog-cont{
+            
+          img{
+              width: 100%;
+              padding-bottom: 1rem;
+              transition: all .4s ease-in-out;
+              &:hover{
+                  transform: scale(1.07);
+              }
+          }
+        .blog-link{
+            color:inherit;
+            font-family: inherit;
+            text-decoration: none;
+            font-size: 1.8rem;
+            margin-top:10px;
+            &:hover{color:#037FFF;}
+        }
+        }
+    }
+
+}
