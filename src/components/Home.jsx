@@ -11,7 +11,7 @@ export default function() {
                  hi, I am <span>zainaba ait wihi</span> 
             </h1>
             <p className="text">
-                zainaba ait wihi devlopper colum tefgt dhgdyqs jdghsjf fkjgh djhsfg utyr slkdjhfj iezrutyu ezpou wcc sdqsf qsdqsd sqddsf sffzere rtry uiyi xbvn fjghfjkdgh jfgdf urtyr dfhdjk jklqfhf pozudj pziwf utye skhfjuer ietydfjh
+                zainabaton ait wihi devlopper colum tefgt dhgdyqs jdghsjf fkjgh djhsfg utyr slkdjhfj iezrutyu ezpou wcc sdqsf qsdqsd sqddsf sffzere rtry uiyi xbvn fjghfjkdgh jfgdf urtyr dfhdjk jklqfhf pozudj pziwf utye skhfjuer ietydfjh
             </p>
             <div className="icons">
             <FaLinkedinIn className="icon li"/>
