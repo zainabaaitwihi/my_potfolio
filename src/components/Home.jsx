@@ -2,7 +2,6 @@ import React from 'react'
 import './Home.scss'
 import {FaLinkedinIn,FaFacebook} from 'react-icons/fa'
 import {BsGithub} from 'react-icons/bs'
-import { Link } from 'react-router-dom'
 export default function() {
   return (
     <div className="home">
@@ -11,7 +10,7 @@ export default function() {
                  hi, I am <span>zainaba ait wihi</span> 
             </h1>
             <p className="text">
-                zainabaton ait wihi devlopper colum tefgt dhgdyqs jdghsjf fkjgh djhsfg utyr slkdjhfj iezrutyu ezpou wcc sdqsf qsdqsd sqddsf sffzere rtry uiyi xbvn fjghfjkdgh jfgdf urtyr dfhdjk jklqfhf pozudj pziwf utye skhfjuer ietydfjh
+                zainaba ait wihi devlopper colum tefgt dhgdyqs jdghsjf fkjgh djhsfg utyr slkdjhfj iezrutyu ezpou wcc sdqsf qsdqsd sqddsf sffzere rtry uiyi xbvn fjghfjkdgh jfgdf urtyr dfhdjk jklqfhf pozudj pziwf utye skhfjuer ietydfjh
             </p>
             <div className="icons">
             <FaLinkedinIn className="icon li"/>

@@ -18,6 +18,7 @@ export default function ({menuItems}){
                    </ul>
                </div>
                <h5>{item.title}</h5>
+               <h6>paragraph</h6>
             </div>
             } )
           
