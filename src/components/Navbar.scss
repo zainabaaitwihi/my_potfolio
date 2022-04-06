@@ -16,6 +16,9 @@
         height:150px;
         border-radius: 100%;
         border: 6px solid #2e344e;
+        @media screen and (max-width: 600px) {
+          height:140px;
+         }
      }
    }
    .nav-items{

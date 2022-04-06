@@ -68,13 +68,10 @@ body{
     position: absolute;
     z-index: 10;
     right: 10%;
-    top:10%;
+    top:5%;
     width: 4rem;
     height: 4rem;
     display: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     cursor: pointer;
     .line1, .line2 , .line3{
         width:100%;

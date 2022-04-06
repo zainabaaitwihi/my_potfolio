@@ -16,7 +16,7 @@ export default function App() {
   return (
     <div className="App"> 
       <div className={`sidebar ${ navtoggle ? "nav-toggle": ""}`}>
-        <Navbarr/>
+        <Navbarr cliknav={cliknav}/>
       </div>
       <div className="nav-btn" onClick={cliknav}>
           <div className="line1"></div>
