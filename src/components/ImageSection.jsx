@@ -23,6 +23,7 @@ export default function ImageSection() {
                         <p>: Morocco Taroudant </p>
                         <p>: arabe ,francais ,anglias </p> 
                     </div>
+                    
             </div>
             <button className="bnt-cv">download cv</button>
         </div>

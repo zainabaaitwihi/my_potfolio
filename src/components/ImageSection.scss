@@ -3,7 +3,7 @@
     margin:3rem 0;
     .image{
         width:100%;
-        height:55vh;
+        height:62vh;
         margin-bottom: 1rem;
         img{
             width:100%;
@@ -26,7 +26,7 @@
         
     }
     }
-    @media screen and (max-width:1400px){
+    @media screen and (max-width:1300px){
         flex-direction: column;
         .about-info{
             margin-left:0;

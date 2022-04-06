@@ -2,6 +2,7 @@
     margin-top: 2rem;
     .service{
         width: 90%;
+        height: 65vh;
         background-color: #191D2B;
         border: 1px solid #2E344E;
         border-top: 10px solid #2E344E;
@@ -9,6 +10,9 @@
         margin-top: 3rem;
         transition: all .4s ease-in-out;
         &:hover{ border-top: 10px solid aqua}
+        @media screen and (max-width: 1100px) {
+           height: auto;
+         }
         .service-title{
             padding-bottom: 1rem;
             text-align: center;
@@ -28,7 +32,7 @@
 .service-container{
     display: flex;
     justify-content: space-between;
-    @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 1100px) {
         flex-direction: column;
      }
 }
